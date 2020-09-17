@@ -1,0 +1,68 @@
+/*@import "~bootstrap/scss/bootstrap";*/
+@import "../custom";
+
+$primary-background: #282828;
+
+
+.sidenav {
+  background-color: white;
+  height: inherit;
+}
+
+.row {
+  width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+  /*#E3E2DF;*/
+}
+
+.showcase {
+  background-image: url("./img/bg2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover; 
+  height: 20rem;
+  margin-bottom: 0;
+}
+
+.showcase h1 {
+  color: $white;
+  font-size: 5rem;
+}
+
+html {
+  background-color: $primary-background;
+}
+
+.card-img{
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  height: 15rem;
+}
+
+.newfavours{
+  background-color: $primary-background;
+  width: 100%;
+  margin: 0;
+}
+
+.newfavours h1 {
+  color: white;
+  margin-left: 0;
+}
+
+.favour-card button{
+  margin-right: 4px;
+}
+
+.favour-card{
+  margin-bottom: 1.5rem;
+}

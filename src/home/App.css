@@ -1,0 +1,15 @@
+.sidenav {
+  background-color: purple;
+  height: inherit;
+}
+
+.row {
+  height: 2000px;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+  background-color: #E3E2DF;
+}
+
