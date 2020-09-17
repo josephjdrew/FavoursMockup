@@ -1,5 +1,5 @@
 /*@import "~bootstrap/scss/bootstrap";*/
-@import "../custom";
+@import "./custom";
 
 $primary-background: #282828;
 
@@ -22,7 +22,7 @@ $primary-background: #282828;
 }
 
 .showcase {
-  background-image: url("./img/bg2.jpg");
+  background-image: url("./home/img/bg2.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
