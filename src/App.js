@@ -11,7 +11,7 @@ export default function App() {
         <main>
             <Switch>
                 <Route path="/" component={Home} exact />
-                <Route path="/newfavour" component={NewFavour} />}
+                <Route path="/newfavour" component={NewFavour} />
                 <Route component={Home} />
             </Switch>
         </main>
