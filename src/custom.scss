@@ -1,8 +1,8 @@
 $theme-colors: (
-    "info": #3500D3,
+    "primary": #3500D3,
     "danger": teal
 );
 
-$info: #3500D3;
+$primary: #3500D3;
 
 @import "~bootstrap/scss/bootstrap";
